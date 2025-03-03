@@ -9,7 +9,7 @@ const app = express()
 const port = 3000;
 
 app.use(express.json())
-app.use('/api', userRouter)
+
 app.use('/api', viajesRouter)
 app.use('/api',reseñasRouter )
 
